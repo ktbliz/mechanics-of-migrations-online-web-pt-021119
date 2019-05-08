@@ -22,7 +22,7 @@ ActiveRecord::Base.establish_connection(
 
 
 sql = <<-SQL
-  CREATE TABLE IF NOT EXISTS artists (
+  CREATE TABLE artists (
   id INTEGER PRIMARY KEY,
   name TEXT,
   genre TEXT,
